@@ -1,8 +1,7 @@
 .Header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-y: 24px;
 
     &__logo {
         width: 160px;
@@ -10,7 +9,6 @@
     }
 
     &__phone {
-        margin-left: 24px;
-        margin-right: 24px;
+        margin-x: 24px;
     }
 }
