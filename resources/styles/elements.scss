@@ -26,4 +26,8 @@
     &--primary {
         @extend .uk-button-primary;
     }
+
+    &--secondary {
+        @extend .uk-button-secondary;
+    }
 } 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Zagdom</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,9 @@
                 {% include '@components/footer/footer.twig' %}
             </footer>
         </div>
-
+        {% block modals %}
+            {% include '@components/feedback-modal/feedback-modal.twig' %}
+        {% endblock %}
         <script type="text/javascript" src="/build/bundle.js"></script>
     </body>
 </html> 

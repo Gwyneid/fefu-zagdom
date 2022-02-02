@@ -15,7 +15,7 @@
      <a href="tel:{{ value }}" class="PrimaryPhone">
          <img
              class="PrimaryPhone__icon"
-             src="{{ 'icons/telephone.svg'|asset }}"
+             src="{{ 'icons/telephone-green.svg'|asset }}"
              alt="Телефон"
              width="16"
              height="16"
@@ -25,7 +25,7 @@
  {% endmacro %}
 
 {% macro button() %}
-    <button type="button" class="Button Button--primary">
+    <button type="button" class="Button Button--primary" data-uk-toggle="#feedback">
         Оставить заявку
     </button>
 {% endmacro %}

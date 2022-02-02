@@ -35,6 +35,9 @@ $inverse-global-color: $global-inverse-color;
 $global-font-family: 'Open Sans', sans-serif;
 $base-heading-font-family: 'Montserrat', sans-serif;
 
+$button-secondary-background: white;
+$button-secondary-color: $color-green;
+
 //Your custom variables and variable overwrites.
 $global-link-color: #DA7D02;    
 
@@ -56,6 +59,10 @@ $global-link-color: #DA7D02;
     font-size: toRem(14px);
     line-height: 49px;
     transition: background-color 0.25s ease-in-out;
+}
+
+@mixin hook-button-secondary {
+    border: 1px solid;
 }
 
 //Import UIkit.
